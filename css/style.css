@@ -1,0 +1,275 @@
+ * {
+    /* elemento respeita limite de tamanho, mesmo com padding */
+    box-sizing: border-box;
+    /* tira o sublinhado dos links */
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* BODY */ 
+body{
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-left: 15 */;
+
+    /* padding: 10px; */    
+}
+
+/* HEADER */ 
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 20px rgba(139, 139, 139, 0.65);
+     
+}
+
+/* Logo */
+div.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0px 39px 0px 0px;
+}
+
+/* Links de paginas */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 531px;
+    margin: 0px 39px 0px 0px;
+}
+
+/* Palavras de paginas */
+nav div{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100%;
+    line-height: 33px;
+    color: #777777;
+}
+
+/*MAIN*/
+
+/* Local do banner */
+section.banner{
+    width: 100%;
+    height: 235px;
+    top: 122px;
+   
+    
+}
+/* Banner */
+section.banner img{
+    width: 100%;
+    height: 235px;
+    top: 122px;
+    
+    
+}
+/* Destaque encontre seu estilo */
+.container-principal{
+    width: 100%;
+    height: 31%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+    margin-top: 10px;
+    background-color: #C2185B;
+    /* border: #000000 solid 2px; */
+    
+   
+}
+/* Fonte do destaque */
+.container-principal h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 82px;
+    text-align: right;
+    color: #FFFFFF;
+    text-transform:uppercase;
+    text-shadow: 
+    5px -1px 0px rgb(0, 0, 0),
+    -1px 1px 0px rgb(0, 0, 0),                    
+    1px -1px 0px rgb(0, 0, 0),                  
+    1px 0px 0px rgb(0, 0, 0);
+
+}
+/* Imagen da esquerda */
+.container-destaque img:nth-child(1){
+    margin-left: 113px;
+    margin-right: 4px;
+    padding-bottom: 120px;
+   
+}
+/* Imagen da direita */
+.container-destaque img:nth-child(2){
+    margin-right: 113px;
+    margin-left: 5px;
+    margin-bottom: 80px;
+    padding-left: 60px;
+    
+}
+        /* 30% e Fotos (Pai) */
+.container-off{
+    max-width: 100%;
+    height: 662px;
+    display: flex;
+    flex-direction: column;
+    background-color: #C2185B;
+    margin-bottom: 80px; 
+    margin-top: 40px;  
+}
+        /* 30% Fonte */
+.container-off h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-top: 61px;
+    margin-bottom: 54px;
+    text-align: center;
+}
+        /* 4 fotos */
+.container-off section{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 102px;
+    margin-right: 84px;
+}
+        /* 4 textos das 4 fotos */
+.container-off div{
+    width: 260px;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 22px;
+    height: 80px;
+    padding-left: 10px;
+    padding-top: 18px; 
+}
+        /* Detalhes (pai)*/
+.container-detalhes{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 116px;
+    padding-left: 100px;
+    padding-right: 100px;
+   
+}
+        /* Detalhes coluna */
+.container-detalhes section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+/* Detalhes texto */
+.container-detalhes h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 53px;
+    color: #000000;
+    margin: 0;
+}
+/* Botão detalhes */
+.container-detalhes button{
+    width: 403px;
+    height: 99px;
+    left: 127px;
+    background: #C2185B;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 53px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FOOTER */
+/* Footer (pai) background */
+footer{
+    background-color: #C2185B;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    
+}
+
+/* Logo */
+footer img{
+    width: 233px;
+    height: 123px;
+}
+
+/* Config texto em baixo da logo */
+footer section:nth-child(1) article {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    position: relative;
+    top: -25px;
+}
+
+/* Grupo1 (Direita) */
+footer section:nth-child(1) {
+    width: 200px;
+    margin-left: 30px;
+}
+/* Grupo2 (centro) */
+footer section:nth-child(2) {
+    width: 104px;
+    margin-top: 10px;
+    margin-left: 500px;
+    margin-bottom: 55px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+    
+}
+/* Grupo3 (direita) */
+footer section:nth-child(3) {
+    width: 246px;
+    margin-top: 10px;
+    margin-bottom: 31px;
+    margin-right: 10PX;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+/* border: #000000 solid 2px; */
